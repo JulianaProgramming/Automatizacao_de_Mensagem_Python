@@ -9,13 +9,13 @@ import time
 # pyautogui.hotkey -> combinação de teclas
 pyautogui.PAUSE = 0.5
 
-# abrir o aplicativo (zap)
+# abrir o aplicativo (WhatsApp)
 pyautogui.press("win")
 pyautogui.write("whatsapp")
 pyautogui.press("enter")
 time.sleep(3)
-#pyautogui.click(x=411, y=254) #primeiro fixado
-pyautogui.click(x=282, y=292) #segundo fixado(meu grupo UFOP)
+#pyautogui.click(x=411, y=254) #primeiro fixado no WhatsApp
+pyautogui.click(x=282, y=292) #segundo fixado no WhatsApp
 pyautogui.press("enter")
 time.sleep(3)
 
